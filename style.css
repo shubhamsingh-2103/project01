@@ -280,7 +280,7 @@ body {
     color: gray;
 }
 
-@media (max-width:600px) 
+@media only screen and (max-width: 600px) and (min-width:400px)
 {
     .nav00 {
         width: 100%;
@@ -371,9 +371,7 @@ body {
         object-fit: cover;
         scale: 1.2;
     }
-    .page2 .boxes .elem {
-        width: 60%;
-    }
+    
 
     .page2 .boxes .elem span{
         margin-left: 12vw;

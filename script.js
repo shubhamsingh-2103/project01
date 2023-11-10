@@ -59,6 +59,7 @@ function navbar() {
     // })
 }
 navbar()
+
 function vdeoanimation() {
     var vdo = document.querySelector(".video-container")
     var pbtn = document.querySelector(".play")
