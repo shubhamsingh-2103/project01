@@ -280,7 +280,7 @@ body {
     color: gray;
 }
 
-@media only screen and (max-width: 600px) and (min-width:400px)
+@media only screen and (max-width: 600px) and (min-width:300px)
 {
     .nav00 {
         width: 100%;
@@ -315,7 +315,7 @@ body {
         min-height: 60vh;
         width: 100%;
         padding: 0 1vw;
-        padding-top: 25vw;
+        padding-top: 33vw;
 
 
     }
@@ -380,6 +380,9 @@ body {
         margin-left: 12vw;
     
     }
+    .page2 .boxes .elem li a{
+        font-size: 3.8vw;
+    }
 
     .page3 .child {
         height: 30vh;
@@ -393,6 +396,7 @@ body {
 
     .child img {
         height: 50vh;
+        width: 66vw;
     }
 
     .page4{
